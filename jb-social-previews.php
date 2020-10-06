@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Simple Social Previews
  * Plugin URI: http://www.jonathanbriehl.com
- * Description: Adds header meta to generate Facebook previews and Twitter cards
+ * Description: Adds meta tags to WordPress site header to create Twitter summary cards and Facebook previews.
  * Version: 1.0.1
  * Author: Jonathan Briehl
  * Author URI: http://www.jonathanbriehl.com
@@ -609,3 +609,11 @@ if (!function_exists('jb_social_plugins_custom_excerpt')) {
         }
     }
 }
+
+/* Check For Plugin Updates - host hashed for privacy */
+require plugin_dir_path(__FILE__) . '/plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+    'https://code.jonathanbriehl.com/wordpress-plugins/jb-social-previews/update.php?domain=' . md5($_SERVER['HTTP_HOST']),
+    __FILE__, //Full path to the main plugin file or functions.php.
+    'jb-social-previews'
+);

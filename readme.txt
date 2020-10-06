@@ -5,7 +5,7 @@ Requires at least: 4.1
 Tested up to: 5.3
 Stable tag: 1.0.1
 
-Adds meta data to header to create Twitter cards and Facebook previews.
+Adds meta tags to WordPress site header to create Twitter summary cards and Facebook previews.
 
 == Description ==
 
