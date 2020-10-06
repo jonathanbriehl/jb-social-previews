@@ -1,0 +1,87 @@
+.jb-social-previews-settings-container {
+    max-width: 900px;
+    margin: 32px auto;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.jb-social-previews-content-container {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.jb-social-previews-settings-container h1 {
+    font-size: 2rem;
+    padding: 0;
+    margin-top: 0;
+}
+
+.jb-social-previews-settings-container h3 {
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 0 0 0.25rem;
+}
+
+.jb-social-previews-settings-container p {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.jb-social-previews-settings-container hr {
+    border-top: 1px solid #CBD5E0;
+    margin: 2rem 4rem;
+}
+
+.jb-social-previews-settings-container .image-preview {
+    display: flex;
+    align-items: center;
+}
+
+.jb-social-previews-settings-container .image-preview .image {
+    margin-right: 16px;
+    width: 300px;
+    height: 120px;
+    padding: 6px;
+    background-color: #f7fafc;
+}
+
+.jb-social-previews-settings-container .image-preview img {
+    object-fit: contain;
+    width: 300px;
+    height: 120px;
+}
+
+.jb-social-previews-settings-container p.submit {
+    padding: 0;
+    margin: 0;
+}
+
+.jb-social-previews-settings-container .button.button-primary {
+    background-color: #3182CE;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 1rem 0 0 0;
+}
+
+.jb-social-previews-settings-container .button.button-primary:hover,
+.jb-social-previews-settings-container .button.button-primary:focus {
+    background-color: #2B6CB0;
+}
+
+.jb-social-previews-settings-container .button.button-primary:active{
+    background-color: #2C5282;
+}
+
+.jb-social-previews-info-alert {
+    padding: 1rem;
+    margin: 1rem -1rem;
+    font-size: 0.875rem;
+    color: #2B6CB0;
+    background-color: #EBF8FF;
+    border-radius: 8px;
+    border: #2B6CB0;
+}
