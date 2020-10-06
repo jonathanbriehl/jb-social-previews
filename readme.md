@@ -17,7 +17,7 @@ zip file. After the upload is complete, click `Activate`.
 
 ## How to Use
 
-#### Default Site Settings
+### Default Site Settings
 
 After activating the plugin, set your default preferences by going to `Settings > Social Previews`.
 
@@ -36,3 +36,13 @@ __Turn on Facebook Previews__
 __Default options__
 * _Use site title in shared link title?_ — Checking will add the site title/name to the cards and previews. Example "Post Title" would become "Post Title - Site Title".
 * _Default Share Image_ — You may set a default image that will be displayed if the page or post being shared does not have a featured image.
+
+### Post / Page Options
+
+When editing a post or page, a "Social Previews Options" box will be available if you would like to customize the 
+Twitter summary card or Facebook preview settings for the particular post/page.
+
+* _Twitter Card Size_ — Keep the default setting, choose a specific size or remove the Twitter summary card.
+* _Facebook Preview_ — Keep the default option, explicitly enable or explicitly disable Facebook previews.
+* _Use Site Title on Shared Link_ - Keep the default option, explicitly enable or explicitly disable.
+* _Custom Title_ — Write a custom title that will be used instead of the post/page title.
