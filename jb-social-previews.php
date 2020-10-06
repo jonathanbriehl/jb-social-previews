@@ -480,37 +480,42 @@ function jb_social_previews_callback($post)
 
     // Echo out the field
     ?>
-    <label for="_twitter_card_size" style="margin-bottom: 4px; display: inline-block;"><strong>Twitter Card
-            Size</strong></label>
-    <select name="_twitter_card_size" id="_twitter_card_size" class="widefat">
-        <option value="default" <?php selected($twitter_card_size, 'default'); ?>>Default</option>
-        <option value="small" <?php selected($twitter_card_size, 'small'); ?>>Small</option>
-        <option value="large" <?php selected($twitter_card_size, 'large'); ?>>Large</option>
-        <option value="none" <?php selected($twitter_card_size, 'none'); ?>>Do not use card</option>
-    </select>
+    <div style="max-width: 216px;">
+        <label for="_twitter_card_size" style="margin-bottom: 4px; display: inline-block;"><strong>Twitter Card
+                Size</strong></label>
+        <select name="_twitter_card_size" id="_twitter_card_size" class="widefat">
+            <option value="default" <?php selected($twitter_card_size, 'default'); ?>>Default</option>
+            <option value="small" <?php selected($twitter_card_size, 'small'); ?>>Small</option>
+            <option value="large" <?php selected($twitter_card_size, 'large'); ?>>Large</option>
+            <option value="none" <?php selected($twitter_card_size, 'none'); ?>>Do not use card</option>
+        </select>
 
-    <br/><br/>
+        <br/><br/>
 
-    <label for="_facebook_preview" style="margin-bottom: 4px; display: inline-block;"><strong>Facebook Preview</strong></label>
-    <select name="_facebook_preview" id="_facebook_preview" class="widefat">
-        <option value="default" <?php selected($facebook_preview, 'default'); ?>>Default</option>
-        <option value="yes" <?php selected($facebook_preview, 'yes'); ?>>Yes</option>
-        <option value="no" <?php selected($facebook_preview, 'no'); ?>>No</option>
-    </select>
+        <label for="_facebook_preview" style="margin-bottom: 4px; display: inline-block;"><strong>Facebook
+                Preview</strong></label>
+        <select name="_facebook_preview" id="_facebook_preview" class="widefat">
+            <option value="default" <?php selected($facebook_preview, 'default'); ?>>Default</option>
+            <option value="yes" <?php selected($facebook_preview, 'yes'); ?>>Yes</option>
+            <option value="no" <?php selected($facebook_preview, 'no'); ?>>No</option>
+        </select>
 
-    <br/><br/>
+        <br/><br/>
 
-    <label for="_site_title" style="margin-bottom: 4px; display: inline-block;"><strong>Use Site Title on Shared
-            Link</strong></label>
-    <select name="_site_title" id="_site_title" class="widefat">
-        <option value="default" <?php selected($site_title, 'default'); ?>>Default</option>
-        <option value="yes" <?php selected($site_title, 'yes'); ?>>Yes</option>
-        <option value="no" <?php selected($site_title, 'no'); ?>>No</option>
-    </select>
+        <label for="_site_title" style="margin-bottom: 4px; display: inline-block;"><strong>Use Site Title on Shared
+                Link</strong></label>
+        <select name="_site_title" id="_site_title" class="widefat">
+            <option value="default" <?php selected($site_title, 'default'); ?>>Default</option>
+            <option value="yes" <?php selected($site_title, 'yes'); ?>>Yes</option>
+            <option value="no" <?php selected($site_title, 'no'); ?>>No</option>
+        </select>
 
-    <br/><br/>
-    <label for="_custom_title" style="margin-bottom: 4px; display: inline-block;"><strong>Custom Title</strong></label>
-    <input type="text" name="_custom_title" id="_custom_title" value="<?php echo $custom_title; ?>" class="widefat"/>
+        <br/><br/>
+        <label for="_custom_title" style="margin-bottom: 4px; display: inline-block;"><strong>Custom
+                Title</strong></label>
+        <input type="text" name="_custom_title" id="_custom_title" value="<?php echo $custom_title; ?>"
+               class="widefat"/>
+    </div>
     <?php
     // echo '<input type="text" name="_twitter_card_size" value="' . $twitter_card_size  . '" class="widefat" />';
 }
