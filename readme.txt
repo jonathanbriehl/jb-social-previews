@@ -3,7 +3,7 @@ Contributors: Jonathan Briehl
 Tags: facebook, twitter, twitter cards, social media, preview
 Requires at least: 4.1
 Tested up to: 6.4.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 
 Adds meta tags to WordPress site header to create Twitter summary cards and Facebook previews.
 
@@ -39,8 +39,11 @@ Go to [http://www.jonathanbriehl.com](http://www.jonathanbriehl.com)
 
 == Changelog ==
 
+= 1.0.3 =
+* Bug fix
+
 = 1.0.2 =
-* The First Release
+* Bug fix
 
 = 1.0.1 =
 * The First Release

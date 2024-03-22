@@ -3,7 +3,7 @@
  * Plugin Name: Simple Social Previews
  * Plugin URI: http://www.jonathanbriehl.com
  * Description: Adds meta tags to WordPress site header to create Twitter summary cards and Facebook previews.
- * Version: 1.0.1
+ * Version: 1.0.3
  * Author: Jonathan Briehl
  * Author URI: http://www.jonathanbriehl.com
  * License: GPL2
@@ -527,7 +527,7 @@ function jb_social_previews_save_meta_box($post_id)
 {
     global $post;
 
-    if (!isset($post))
+    if (!isset($post) or !isset($_POST['socialpreviewmeta_noncename']))
     {
         return null;
     }
